@@ -30,7 +30,7 @@ def old_oak():
         else:
             print("You climb the tree and get the acorn.")
             inventory.append("Acorn")
-            old_oak()
+            old_oak() 
     else:
         print("You leave the tree and continue on your path.")
         prompt = ("Where would you like to go next? \n"
