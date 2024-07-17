@@ -18,7 +18,7 @@ def old_oak():
           "You can see an acorn hanging up there.")
 
     prompt = ("What would you like to do? \n"
-              "A. Climb the tree and get the acron?\n"
+              "A. Climb the tree and get the acorn?\n"
               "B. Leave the tree and continue on your path?\n")
     options = ["A", "B"]
 
@@ -30,7 +30,7 @@ def old_oak():
         else:
             print("You climb the tree and get the acorn.")
             inventory.append("Acorn")
-            old_oak() 
+        old_oak()
     else:
         print("You leave the tree and continue on your path.")
         prompt = ("Where would you like to go next? \n"
@@ -58,6 +58,7 @@ def rainbow_falls():
 
     if choice == "A":
         print("You walk through the mist and see the rainbow up close.")
+        rainbow_falls()
     else:
         print("You leave the falls and continue on your path.")
         prompt = ("Where would you like to go next? \n"
