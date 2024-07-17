@@ -3,6 +3,15 @@ import time
 
 
 def battle(player_name, player_health, cpu_name, cpu_health):
+    """
+
+    :param player_name: A string representing the player's name
+    :param player_health: An integer representing the player's health
+    :param cpu_name: A string representing the CPU's name
+    :param cpu_health: An integer representing the CPU's health
+    :return: None
+    """
+
     # NAME PLAYERS
     if player_name == "1":
         player_name = "Pikachu"
@@ -119,8 +128,8 @@ def battle(player_name, player_health, cpu_name, cpu_health):
     else:
         print(f"{player_name} wins!")
 
-# START THE PROGRAM
 
+# START THE PROGRAM
 print("Choose your Pokemon!")
 print("1. Pikachu")
 print("2. Charizard")
